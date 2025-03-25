@@ -4,8 +4,8 @@ let pokemonList = ["Bulbasaur","Ivysaur","Venusaur","Charmander","Charmeleon","C
 
 console.log("javascript file is linked!")
 // Question 1
-let hostName = document.getElementById("hostname")
-hostName.InnerHTML = "Beck"
+let hostName = document.getElementById("host-name");
+hostName.innerHTML = "Beck";
 
 //Question 2
 let instructionsButton = document.getDocumentById("instruction_button")
@@ -21,7 +21,7 @@ instructionsButton.addEventListener("click", function() {
         } else{
             question.style.display = "none";
             // set button text to show instructions
-            instructionsButton.InnerHTML = "Show instructions";
+            instructionsButton.innerHTML = "Show instructions";
         }
     }
     })
